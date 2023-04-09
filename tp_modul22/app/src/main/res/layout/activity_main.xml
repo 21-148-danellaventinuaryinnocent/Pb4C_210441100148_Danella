@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="Silahkan pilih menu"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/cb1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nasi Pecel" />
+
+        <CheckBox
+            android:id="@+id/cb2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nasi Rawon" />
+
+        <CheckBox
+            android:id="@+id/cb3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nasi Goreng" />
+
+        <CheckBox
+            android:id="@+id/cb4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Es Jeruk" />
+
+        <CheckBox
+            android:id="@+id/cb5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Es Degan" />
+
+        <CheckBox
+            android:id="@+id/cb6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Es Teh" />
+
+        <Button
+            android:id="@+id/btn_order"
+            android:layout_width="262dp"
+            android:layout_height="wrap_content"
+            android:text="ORDER"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
